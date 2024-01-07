@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=McLaren&family=Poppins:ital,wght@0,200;0,400;0,700;1,500;1,800&display=swap");
+
+body {
+  font-family: "McLaren", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #fff;
+}
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.logo,
+.page-heading,
+.toggle-buttons {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.logo-img {
+  width: 9.25rem;
+  height: 9.25rem;
+}
+
+.toggle-buttons {
+  display: flex;
+}
+
+/* Add styles for the buttons */
+#lightModeToggle,
+#darkModeToggle {
+  width: 3rem;
+  height: 3rem;
+  color: #333;
+  border: none;
+  margin: 0 4px;
+  border-radius: 25%;
+  background-color: rgba(217, 217, 217, 0.095);
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0 0 calc(20% - 20px);
+  margin: 10px;
+  padding: 40px;
+  background-color: #120e2d;
+  border-radius: 1.25rem;
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.card img {
+  max-width: 100px;
+}
